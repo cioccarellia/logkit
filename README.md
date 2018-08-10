@@ -1,6 +1,7 @@
 <img src="https://raw.githubusercontent.com/AndreaCioccarelli/LogKit/master/icons/web.png" align="right" height="128px" width="128px" >
 
 # LogKit
+[![Jitpack](https://jitpack.io/v/AndreaCioccarelli/LogKit.svg)](https://jitpack.io/#AndreaCioccarelli/LogKit)
 [![Min sdk](https://img.shields.io/badge/minsdk-14-yellow.svg)](https://github.com/AndreaCioccarelli/LogKit/blob/master/library/build.gradle)
 [![Language](https://img.shields.io/badge/language-kotlin-orange.svg)](https://github.com/AndreaCioccarelli/LogKit/blob/master/library/build.gradle)
 [![License](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/AndreaCioccarelli/CryptoPrefs/blob/master/LICENSE)
