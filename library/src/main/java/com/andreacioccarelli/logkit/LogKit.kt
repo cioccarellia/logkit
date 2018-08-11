@@ -18,6 +18,9 @@ fun logd(@Nullable vararg items: Any?) {
     }
 }
 
+/**
+ * Direct debug code logger 
+ */
 @SuppressLint("LogConditional")
 fun logd(@NonNull code: () -> Any?) = Log.d("$LOGGING_TAG $DEBUG_TAG", code().toString())
 
@@ -34,6 +37,9 @@ fun loge(@Nullable vararg items: Any?) {
     }
 }
 
+/**
+ * Direct error code logger 
+ */
 @SuppressLint("LogConditional")
 fun loge(@NonNull code: () -> Any?) = Log.e("$LOGGING_TAG $ERROR_TAG", code().toString())
 
@@ -50,6 +56,9 @@ fun logw(@Nullable vararg items: Any?) {
     }
 }
 
+/**
+ * Direct warning code logger 
+ */
 @SuppressLint("LogConditional")
 fun logw(@NonNull code: () -> Any?) = Log.w("$LOGGING_TAG $WARNING_TAG", code().toString())
 
@@ -67,6 +76,9 @@ fun logi(@Nullable vararg items: Any?) {
     }
 }
 
+/**
+ * Direct info code logger 
+ */
 @SuppressLint("LogConditional")
 fun logi(@NonNull code: () -> Any?) = Log.i("$LOGGING_TAG $INFO_TAG", code().toString())
 
@@ -83,5 +95,8 @@ fun loga(@Nullable vararg items: Any?) {
     }
 }
 
+/**
+ * Direct assert code logger 
+ */
 @SuppressLint("LogConditional")
 fun loga(@NonNull code: () -> Any?) = Log.wtf("$LOGGING_TAG $ASSERT_TAG", code().toString())
