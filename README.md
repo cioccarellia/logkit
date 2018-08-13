@@ -1,4 +1,3 @@
-<img src="https://raw.githubusercontent.com/AndreaCioccarelli/LogKit/master/icons/web.png" align="right" height="128px" width="128px" >
 
 # LogKit
 [![Jitpack](https://jitpack.io/v/AndreaCioccarelli/LogKit.svg)](https://jitpack.io/#AndreaCioccarelli/LogKit)
