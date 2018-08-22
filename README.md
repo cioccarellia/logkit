@@ -2,6 +2,7 @@
 # LogKit
 [![Jitpack](https://jitpack.io/v/AndreaCioccarelli/LogKit.svg)](https://jitpack.io/#AndreaCioccarelli/LogKit)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/601fb614156048afb9d4a5876def83d9)](https://www.codacy.com/project/cioccarelliandrea01/LogKit/dashboard)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-LogKit-green.svg?style=flat )]( https://android-arsenal.com/details/1/7073 )
 [![Min sdk](https://img.shields.io/badge/minsdk-14-yellow.svg)](https://github.com/AndreaCioccarelli/LogKit/blob/master/library/build.gradle)
 [![Language](https://img.shields.io/badge/language-kotlin-orange.svg)](https://github.com/AndreaCioccarelli/LogKit/blob/master/library/build.gradle)
 [![License](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/AndreaCioccarelli/CryptoPrefs/blob/master/LICENSE)
