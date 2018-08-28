@@ -47,7 +47,7 @@ fun logX(@Nullable vararg items: Any?) {
     for (item in items) {
         Log.e("$LOGGING_TAG $EXCEPTION_TAG", item.toString())
     }
-    throw Exception("")
+    throw RuntimeException()
 }
 
 /**
