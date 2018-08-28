@@ -124,3 +124,14 @@ logd {
 LogKit [D]: value
 ```
 
+### 0x6 Throwing exception
+An exception can be thrown from a function, right after having logged last-second data that caused the problem.
+```kotlin
+logX(client)
+```
+```log
+LogKit [X]: Client(status=Fail, reason=Expired token, token=mxp903w0fgertyyz)
+D/AndroidRuntime: Shutting down VM
+```
+
+This is useful if you encounter a crash for the one you have to terminate your app but you wanna inspect what causes the problem
