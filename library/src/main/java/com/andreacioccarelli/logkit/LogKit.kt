@@ -38,19 +38,6 @@ fun loge(@Nullable vararg items: Any?) {
 }
 
 /**
- * Exception caller log call.
- *
- * Should be used to log data before crashing.
- * */
-@SuppressLint("LogConditional")
-fun logX(@Nullable vararg items: Any?) {
-    for (item in items) {
-        Log.e("$LOGGING_TAG $EXCEPTION_TAG", item.toString())
-    }
-    throw Exception("")
-}
-
-/**
  * Direct error code logger 
  */
 @SuppressLint("LogConditional")
