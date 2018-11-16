@@ -10,8 +10,8 @@
 LogKit is a very small android library, made to make logging easier, faster and stilish to be incorporated in your code.
 
 ## Repository
-LogKit uses jitpack as packages repository.
-To use it you need to add the repository to your project build.gradle file:
+LogKit uses [jitpack](https://jitpack.io/#AndreaCioccarelli/LogKit) as package repository.
+To use it you need to add that line to your project build.gradle file:
 ```gradle
 allprojects {
     repositories {
