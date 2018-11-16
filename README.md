@@ -5,7 +5,7 @@
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-LogKit-green.svg?style=flat )]( https://android-arsenal.com/details/1/7073 )
 [![Min sdk](https://img.shields.io/badge/minsdk-14-yellow.svg)](https://github.com/AndreaCioccarelli/LogKit/blob/master/library/build.gradle)
 [![Language](https://img.shields.io/badge/language-kotlin-orange.svg)](https://github.com/AndreaCioccarelli/LogKit/blob/master/library/build.gradle)
-[![License](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/AndreaCioccarelli/MusicDownloader/blob/master/LICENSE)
+[![License](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/AndreaCioccarelli/LogKit/blob/master/LICENSE)
 
 LogKit is a very small android library, made to make logging easier, faster and stilish to be incorporated in your code.
 
@@ -44,7 +44,7 @@ logd(X, Y)
 ## Usage
 Despite this library is small and simple, it's extremely powerful and it has many potential usages. Let's check them out
 
-### 0x1 Types
+### Types
 This library can log everything you pass to the function without limitations depenting on the type and the nullability state (Useful both for Java and Kotlin developers).
 ```kotlin
 val A = "Pizza"
@@ -60,7 +60,7 @@ logd(D)
 logd(E)
 ```
 
-### 0x2 vararg input
+### vararg input
 There is a better way to do what we saw in the previous example, obtaining the same exact result.
 ```kotlin
 logd(A, B, C, D, E)
@@ -69,7 +69,7 @@ Every function in this library requires a vararg argument of `Any` type, and so 
 
 
 
-### 0x3 Data types
+### Data types
 One peculiarity of this library is that gives you the ability to log raw, pure data and to check them on the logcat. You can log literally everything that is inside your scope.
 
 ```kotlin
@@ -80,7 +80,7 @@ logd(X)
 LogKit [D]: [House, Wilson, Chase, 13, Foreman]
 ```
 
-### 0x4 Nullable types
+### Nullable types
 You can log nullable types. If they are null, the literal "null" is logged, else the non-null value is printed out.
 ```kotlin
 val Y = null
@@ -90,7 +90,7 @@ logd(Y)
 LogKit [D]: null
 ```
 
-### 0x5 Logging code
+### Logging code
 You can pass executable code to the function. The functions accepts an argument of type `() -> Any?`.
 This is useful to group testing code in one scope
 ```kotlin
@@ -118,7 +118,7 @@ logd {
 LogKit [D]: pizza
 ```
 
-### 0x6 Throwing exception
+### Throwing exception
 An exception can be thrown from a function, right after having logged last-second data that caused the problem.
 ```kotlin
 logX(client)
