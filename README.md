@@ -118,20 +118,8 @@ logd {
 LogKit [D]: pizza
 ```
 
-### Throwing exception
-An exception can be thrown from a function, right after having logged last-second data that caused the problem.
-```kotlin
-logX(client)
-```
-```log
-LogKit [X]: Client(status=Fail, reason=Expired token, token=mxp903w0fgertyyz)
-D/AndroidRuntime: Shutting down VM
-```
 
-This is useful if you encounter a crash for the one you have to terminate your app but you wanna inspect what causes the problem
-
-
-## Functions Map
+## Function Map
 Fx | Documentation | Color
 -- | ------------- | -----
 `logd()` | Should be used in the most of the cases to print a debug message | #66BB6A
