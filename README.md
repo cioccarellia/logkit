@@ -22,7 +22,7 @@ allprojects {
 And the dependency to your module build.gradle file:
 ```gradle
 dependencies {
-    implementation 'com.github.AndreaCioccarelli:LogKit:1.1.1'
+    implementation 'com.github.AndreaCioccarelli:LogKit:1.2.0'
 }
 ```
 
@@ -90,7 +90,7 @@ logd(Y)
 LogKit [D]: null
 ```
 
-### Logging code
+### Logging code result
 You can pass executable code to the function. The functions accepts an argument of type `() -> Any?`.
 This is useful to group testing code in one scope
 ```kotlin
@@ -117,14 +117,3 @@ logd {
 ```log
 LogKit [D]: pizza
 ```
-
-
-## Function Map
-Fx | Documentation | Color
--- | ------------- | -----
-`logd()` | Should be used in the most of the cases to print a debug message | #66BB6A
-`loge()` | Should be used to log errors or exceptions | #EF5350
-`logw()` | Should be used to print warnings and non-critical errors | #FFA726
-`logi()` | Should be used to print information or data about the current program execution algorithm state | #00B0FF
-`loga()` | Should be used to print assert details | #BA68C8
-`logX()` | Should be used to print data before exceptions | N/A
